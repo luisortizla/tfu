@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/loginback"
+    >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:background="@drawable/bglogintitle"
+        >
+		<TextView
+			android:text="@string/titlelogin"
+			android:fontFamily="@font/atma_bold"
+			app:fontFamily="@font/atma_bold"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:textSize="?android:attr/listPreferredItemHeightLarge"
+			android:textColor="@android:color/white"
+                  />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<EditText
+			android:inputType="textPersonName"
+			android:id="@+id/usertxt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginHorizontal="40dp"
+			
+			android:background="@drawable/corner_radius_tfsecond"
+			android:hint="@string/Usuario"
+			android:textAlignment="center"
+			android:textColorHint="@android:color/black"
+			android:textSize="30sp"
+			android:textColor="@android:color/black"
+			
+             />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<EditText
+			android:inputType="textPassword"
+			android:id="@+id/passtxt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginHorizontal="40dp"
+			android:background="@drawable/corner_radius_tfsecond"
+			android:hint="@string/Contraseña"
+			android:textAlignment="center"
+			android:textColorHint="@android:color/black"
+			android:textSize="30sp"
+			android:textColor="@android:color/black"
+		 />
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<Button
+			android:id="@+id/loginbtn"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginHorizontal="110dp"
+			android:background="@drawable/corner_radius_tfprimary"
+			android:text="@string/Ingresar"
+			android:textColor="@android:color/white"
+			android:textSize="25sp"
+			android:clickable="false"
+			/>
+		<Button
+			android:id="@+id/passforgotbtn"
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:text="@string/passforgot"
+			android:background="@color/mtrl_btn_transparent_bg_color"
+			android:textColor="@android:color/black"
+			android:clickable="true"
+			/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<Button
+			android:id="@+id/loginregisterbtn"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom"
+			android:background="@drawable/registergl"
+			android:text="@string/Registrarse"
+			android:textColor="@android:color/white"
+			android:textSize="25sp"
+			android:clickable="true"
+            />
+	</LinearLayout>
+
+
+
+</LinearLayout>

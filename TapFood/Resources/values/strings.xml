@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">TapFood</string>
+    <string name="action_settings">Settings</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="registro">¿Aun no tienes cuenta?</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="titlelogin">TapFood</string>
+    <string name="hola">Hola,</string>
+    <string name="pfr">Por favor ingresa tus datos.</string>
+    <string name="IdUser">Crea tu Id</string>
+    <string name="namerg">Nombre y Apellido</string>
+    <string name="mail">Correo Electronico</string>
+    <string name="passrg">Contraseña</string>
+    <string name="phonerg">Num. Celular</string>
+    <string name="passforgot">¿Has olvidado tu contraseña?</string>
+
+</resources>

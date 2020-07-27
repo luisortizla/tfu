@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback">
+
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bglogintitle"
+        android:text="@string/pfr"
+        android:fontFamily="@font/atma_bold"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/idcreatetxt"
+        android:inputType="textPersonName"
+        android:background="@drawable/corner_radius_tfsecond"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:hint="@string/IdUser"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/namecreatetxt"
+        android:inputType="textPersonName"
+        android:background="@drawable/corner_radius_tfsecond"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="30dp"
+        android:hint="@string/namerg"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/mailcreatetxt"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/corner_radius_tfsecond"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="30dp"
+        android:hint="@string/mail"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/phonecreatetxt"
+        android:inputType="phone"
+        android:background="@drawable/corner_radius_tfsecond"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="30dp"
+        android:hint="@string/phonerg"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/passcreatetxt"
+        android:inputType="textPassword"
+        android:background="@drawable/corner_radius_tfsecond"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/passrg"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/registerbtn"
+        android:background="@drawable/registergl"
+        android:text="@string/Registrarse"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:clickable="true"
+        />
+    
+</LinearLayout>

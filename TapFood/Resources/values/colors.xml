@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#1B3147</color>
+    <color name="colorAccent">#3498db</color>
+    <color name="splash_background">#fff</color>
+    <color name="tfprimary">#8c52ff</color>
+    <color name="tfsecond">#3d1a82</color>
+    <color name="text">#080662</color>
+   
+       
+</resources>
